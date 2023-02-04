@@ -1,26 +1,4 @@
-const createTeam =(team) => {
- const addEmployee =(employee) => {
-    return `
-    <div class="card-body">
-    <h5 class="card-title">${employee.getName()}</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">${employee.getID()}</li>
-    <li class="list-group-item">${employee.getType()}</li>
-    <li class="list-group-item">${employee.getEmail()}</li>
-  </ul>
 
-</div>
-    `;
- };
-const html = [];
-html.push(team);
-
-};
-
-module.exports = (team) => {
-    return `
     <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,11 +17,10 @@ module.exports = (team) => {
     <div class="card1" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
-      ${createTeam(team)}
+      undefined
         
       </div>
     
 </body>
 </html>
-    ` ;
-}
+    
